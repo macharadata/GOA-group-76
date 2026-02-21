@@ -1,0 +1,17 @@
+ok1{
+  font-size:15px;
+  color:blue;
+  background:green;
+  text-align:center;
+}
+
+ok2{
+  font-size:18px;
+  color:green;
+  background:red;
+  text-align:center;
+}
+
+ok2 table{
+  border:2px solid black;
+}

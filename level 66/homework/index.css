@@ -1,0 +1,147 @@
+/* 1 */
+.c1 {
+    color: #FFFFFF;
+    background-color: #008080;
+    border: 3px solid #000000;
+    width: 400px;
+    text-align: center;
+}
+
+#i1 {
+    color: #000000;
+    background-color: #FFD166;
+}
+
+/* 2 */
+.c2 {
+    color: #003366;
+    background-color: #CCEEFF;
+    border: 2px solid #003366;
+    font-size: 18px;
+}
+
+#i2 {
+    color: #FFFFFF;
+    background-color: #CC0000;
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+/* 3 */
+.c3 {
+    background-color: #00AA88;
+    border: 2px solid #003333;
+    color: #FFFFFF;
+}
+
+.c4 {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #000;
+}
+
+/* 4 */
+.c5 {
+    background-color: #EEEEEE;
+    border: 2px solid #222;
+}
+
+#i5 {
+    background-color: #FFEEFF;
+    border: 2px solid #880088;
+}
+
+/* 5 */
+.c6 {
+    background-color: #DDDDFF;
+    border: 2px solid #0000AA;
+    color: #000000;
+}
+
+#i6 {
+    background-color: #FFFFCC;
+    border: 2px solid #AA8800;
+}
+
+.btn {
+    background-color: #00AAFF;
+    color: #FFFFFF;
+    border: 2px solid #000000;
+}
+
+#btn1 {
+    background-color: #008800;
+}
+
+/* 6 */
+.c7 {
+    background-color: #FFE0F0;
+    border: 2px solid #AA0066;
+    color: #000000;
+}
+
+.t1 {
+    background-color: #FFCCCC;
+    color: #000033;
+    border: 2px solid #000033;
+}
+
+#t2 {
+    background-color: #CCCCFF;
+    color: #330000;
+    border: 2px solid #330000;
+}
+
+.p1 {
+    background-color: #CCFFFF;
+    color: #003333;
+    border: 2px solid #003333;
+}
+
+#p2 {
+    background-color: #333333;
+    color: #FFFFFF;
+    border: 2px solid #AAAAAA;
+}
+
+/* element selector */
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* 7 */
+.c8 {
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    color: #000000;
+}
+
+.c9 {
+    background-color: #EEFFFA;
+    border: 2px solid #00AA88;
+}
+
+.c10 {
+    background-color: #FFF0F0;
+    border: 2px solid #FF0066;
+}
+
+#i9 {
+    background-color: #DDFFF5;
+}
+
+#i10 {
+    background-color: #FFEEDD;
+}
+
+ol {
+    color: #000088;
+}
+
+ul {
+    color: #880000;
+}
