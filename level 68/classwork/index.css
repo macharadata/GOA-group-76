@@ -1,0 +1,23 @@
+.wave{
+    text-decoration-line: underline overline line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+}
+
+
+.double{
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-decoration-color: blue;
+    text-align:center;
+}
+
+
+.dotted{
+    text-decoration-style: dotted;
+    text-decoration-line: overline;
+    text-decoration-color: green;
+    text-align:center;
+}
+
+

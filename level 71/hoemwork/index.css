@@ -1,0 +1,179 @@
+
+/* 1) პარაგრაფები */
+#p-normal {
+    font-weight: normal;
+}
+
+#p-bold {
+    font-weight: bold;
+}
+
+#p-bolder {
+    font-weight: bolder;
+}
+
+#p-lighter {
+    font-weight: lighter;
+}
+
+#p-inherit {
+    font-weight: inherit;
+}
+
+/* 2) h1 რიცხვითი მნიშვნელობები */
+#fw100 { font-weight: 100; }
+#fw200 { font-weight: 200; }
+#fw300 { font-weight: 300; }
+#fw400 { font-weight: 400; }
+#fw500 { font-weight: 500; }
+#fw600 { font-weight: 600; }
+#fw700 { font-weight: 700; }
+#fw800 { font-weight: 800; }
+#fw900 { font-weight: 900; }
+
+/* 3) სიები */
+#html-tags {
+    font-weight: lighter;
+}
+
+#css-tags {
+    font-weight: bolder;
+}
+
+/* 4) Style Inheritance */
+.students-section {
+    font-family: Georgia, serif;
+}
+
+.student-names {
+    font-weight: 500;
+}
+
+.student-surnames {
+    font-weight: bold;
+}
+
+/* 5) პირველი table - მხოლოდ table-ის გასტილვით */
+#table-one {
+    font-weight: 900;
+    color: rgb(0, 128, 0);
+    font-size: 24px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+}
+
+/* 6) მეორე table */
+#table-two {
+    font-weight: bold;
+    color: rgb(255, 105, 180);
+    font-size: 30px;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+#table-two td {
+    background-color: blue;
+    border: 2px solid rgb(255, 255, 0);
+    padding: 10px;
+}
+
+/* 7) პირველი div - მშობელი ელემენტით */
+#parent-div {
+    color: white;
+    background-color: rgb(34, 139, 34);
+    border: 3px solid black;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* მეორე div - Style Inheritance */
+#inherit-div {
+    color: navy;
+    background-color: lightyellow;
+    border: 3px dashed red;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 1px 1px 2px gray;
+    text-decoration: overline;
+    text-transform: uppercase;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* მესამე div */
+#button-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.fancy-btn {
+    color: white;
+    background-color: purple;
+    border: 2px solid gold;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 12px 18px;
+    margin: 8px;
+    box-shadow: 3px 3px 8px gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* 9) პატარა ლამაზი საიტი */
+#animal-site {
+    width: 70%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(230, 255, 250);
+    border: 4px solid teal;
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Trebuchet MS", sans-serif;
+    color: rgb(20, 60, 60);
+    box-shadow: 0 0 15px gray;
+}
+
+#animal-site h2 {
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px lightgray;
+}
+
+#animal-site img {
+    width: 300px;
+    border: 4px solid darkcyan;
+    border-radius: 20px;
+    margin: 15px 0;
+}
+
+#animal-site p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+#animal-site button {
+    background-color: darkcyan;
+    color: white;
+    border: 2px solid black;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-transform: capitalize;
+    box-shadow: 2px 2px 6px gray;
+    cursor: pointer;
+}
