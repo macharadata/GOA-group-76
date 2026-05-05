@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Styles Demo</title>
+    <style>
+        /* 1) 5 საყვარელი ფილმი */
+        #favorite-movies {
+            list-style-type: upper-roman;
+            color: white;
+            background-color: #6C5B7B;
+            font-family: 'Arial', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #favorite-movies li ul {
+            list-style-type: square;
+            color: #F8B195;
+        }
+
+        /* 2) ყოველდღიური საქმიანობები */
+        #daily-tasks {
+            list-style-type: decimal-leading-zero;
+            color: #355C7D;
+            background-color: #F7DC6F;
+            font-size: 18px;
+            font-weight: 600;
+            border: 2px solid #6C5B7B;
+            padding: 15px;
+        }
+
+        #daily-tasks li ul {
+            list-style-type: circle;
+        }
+
+        /* 3) საკვები კატეგორიები */
+        #categories {
+            list-style-type: disc;
+            color: #2E4053;
+            background-color: #D5F5E3;
+            font-size: 18px;
+            font-weight: 600;
+            border: 2px solid #117A65;
+            padding: 15px;
+        }
+
+        #categories li ol {
+            list-style-type: lower-alpha;
+        }
+
+        /* 4) ქვეყნები */
+        #countries {
+            list-style-type: upper-alpha;
+            color: #1F618D;
+            background-color: #D6EAF8;
+            font-size: 18px;
+            font-weight: 500;
+            font-family: 'Verdana', sans-serif;
+            border: 2px solid #117864;
+            padding: 15px;
+        }
+
+        #countries li ul {
+            list-style-type: square;
+        }
+
+        #countries li {
+            text-decoration: underline;
+        }
+
+        /* 5) პროგრამირების ენები */
+        #programming-languages {
+            list-style-type: lower-roman;
+            color: #FFFFFF;
+            background-color: #34495E;
+            font-size: 18px;
+            font-weight: 500;
+            font-family: 'Courier New', monospace;
+            border: 2px solid #1ABC9C;
+            padding: 15px;
+            transition: all 0.3s;
+        }
+
+        #programming-languages li:hover {
+            color: #1ABC9C;
+            background-color: #1F618D;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #programming-languages li ul {
+            list-style-type: circle;
+        }
+
+        /* 6) რესტორნები */
+        #restaurants {
+            list-style-type: none;
+            color: #1C2833;
+            background-color: #FADBD8;
+            font-size: 18px;
+            font-weight: 500;
+            font-family: 'Tahoma', sans-serif;
+            border: 2px solid #C0392B;
+            padding: 15px;
+        }
+
+        #restaurants li ul {
+            list-style-type: square;
+        }
+
+        #restaurants li:active {
+            color: #E74C3C;
+            background-color: #F5B7B1;
+            font-weight: bold;
+        }
+
+        /* 7) ჰობები */
+        #hobbies {
+            list-style-type: circle;
+            color: #873600;
+            background-color: #FDEBD0;
+            font-size: 18px;
+            font-weight: 500;
+            font-family: 'Georgia', serif;
+            border: 2px solid #BA4A00;
+            text-align: center;
+            padding: 15px;
+        }
+
+        #hobbies ul li {
+            list-style-type: lower-greek;
+        }
+
+        #hobbies li:hover {
+            color: #BA4A00;
+            background-color: #FAD7A0;
+            font-weight: bold;
+        }
+
+        /* 8) საკვები პროდუქტები ვიტამინებით */
+        #foods {
+            list-style-type: disc;
+            color: #1B2631;
+            background-color: #D5DBDB;
+            font-size: 18px;
+            font-weight: 500;
+            font-family: 'Verdana', sans-serif;
+            border: 2px solid #566573;
+            padding: 15px;
+            text-align: right;
+        }
+
+        #foods li ul {
+            list-style-type: circle;
+        }
+
+        /* 9) Miscellaneous სია (დაულაგებელი + დალაგებული) */
+        #misc {
+            list-style-type: square;
+            color: #512E5F;
+            background-color: #E8DAEF;
+            font-size: 18px;
+            font-weight: 500;
+            border: 2px solid #7D3C98;
+            padding: 15px;
+        }
+
+        #misc li ol {
+            list-style-type: upper-roman;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 1) საყვარელი ფილმები -->
+    <ol id="favorite-movies">
+        <li>Inception
+            <ul>
+                <li>Action</li>
+                <li>Sci-Fi</li>
+                <li>Thriller</li>
+            </ul>
+        </li>
+        <li>The Dark Knight
+            <ul>
+                <li>Action</li>
+                <li>Drama</li>
+            </ul>
+        </li>
+        <li>Interstellar
+            <ul>
+                <li>Sci-Fi</li>
+                <li>Adventure</li>
+            </ul>
+        </li>
+        <li>Forrest Gump
+            <ul>
+                <li>Drama</li>
+                <li>Romance</li>
+            </ul>
+        </li>
+        <li>The Matrix
+            <ul>
+                <li>Action</li>
+                <li>Sci-Fi</li>
+            </ul>
+        </li>
+    </ol>
+
+    <!-- 2) ყოველდღიური საქმიანობები -->
+    <ol id="daily-tasks">
+        <li>Wake Up
+            <ul>
+                <li>Brush Teeth</li>
+                <li>Shower</li>
+            </ul>
+        </li>
+        <li>Work/School</li>
+        <li>Exercise</li>
+        <li>Eat</li>
+        <li>Sleep</li>
+    </ol>
+
+    <!-- 3) საკვები კატეგორიები -->
+    <ul id="categories">
+        <li>Fruits
+            <ol>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Orange</li>
+            </ol>
+        </li>
+        <li>Drinks
+            <ol>
+                <li>Water</li>
+                <li>Juice</li>
+                <li>Tea</li>
+            </ol>
+        </li>
+    </ul>
+
+    <!-- 4) ქვეყნები -->
+    <ol id="countries">
+        <li>Georgia
+            <ul>
+                <li>Tbilisi</li>
+                <li>Batumi</li>
+            </ul>
+        </li>
+        <li>USA
+            <ul>
+                <li>New York</li>
+                <li>Los Angeles</li>
+            </ul>
+        </li>
+    </ol>
+
+    <!-- 5) პროგრამირების ენები -->
+    <ol id="programming-languages">
+        <li>Python
+            <ul>
+                <li>Easy to Learn</li>
+                <li>High-level</li>
+                <li>Dynamic Typing</li>
+            </ul>
+        </li>
+        <li>JavaScript
+            <ul>
+                <li>Web Development</li>
+                <li>Event-driven</li>
+            </ul>
+        </li>
+    </ol>
+
+    <!-- 6) რესტორნები -->
+    <ul id="restaurants">
+        <li>Restaurant A
+            <ul>
+                <li>Pizza ▣</li>
+                <li>Pasta ▣</li>
+            </ul>
+        </li>
+        <li>Restaurant B
+            <ul>
+                <li>Sushi ▣</li>
+                <li>Ramen ▣</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- 7) ჰობები -->
+    <ul id="hobbies">
+        <li>Reading
+            <ol>
+                <li>ა) Fiction</li>
+                <li>ბ) Non-fiction</li>
+            </ol>
+        </li>
+        <li>Gaming
+            <ol>
+                <li>ა) RPG</li>
+                <li>ბ) FPS</li>
+            </ol>
+        </li>
+    </ul>
+
+    <!-- 8) საკვები პროდუქტები ვიტამინებით -->
+    <ul id="foods">
+        <li>Apple
+            <ul>
+                <li>Vitamin C ○</li>
+                <li>Vitamin A ○</li>
+            </ul>
+        </li>
+        <li>Carrot
+            <ul>
+                <li>Vitamin A ○</li>
+                <li>Vitamin K ○</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- 9) Miscellaneous -->
+    <ul id="misc">
+        <li>Topic A
+            <ol>
+                <li>Subtopic I</li>
+                <li>Subtopic II</li>
+            </ol>
+        </li>
+        <li>Topic B
+            <ol>
+                <li>Subtopic III</li>
+            </ol>
+        </li>
+    </ul>
+
+</body>
+
+</html>

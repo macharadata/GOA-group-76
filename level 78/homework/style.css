@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #2f343d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+/* 2 */
+
+.contact-card {
+    background: #eee;
+    padding: 30px;
+    border-radius: 10px;
+    width: 260px;
+    text-align: center;
+}
+
+.contact-card h2 {
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.contact-card input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+/* 2 */
+
+.login-card-pink {
+    background: #eee;
+    padding: 30px;
+    border-radius: 10px;
+    width: 260px;
+}
+
+.login-card-pink input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-card-pink button {
+    width: 100%;
+    padding: 10px;
+    background: #ff4f87;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* 3 */
+
+.login-card-blue {
+    background: #eee;
+    padding: 30px;
+    border-radius: 10px;
+    width: 260px;
+    text-align: center;
+}
+
+.login-card-blue h2 {
+    color: #4db6ac;
+    margin-bottom: 20px;
+}
+
+.login-card-blue input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-card-blue button {
+    width: 100%;
+    padding: 10px;
+    background: #4db6ac;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* 4 */
+
+.login-card-green {
+    background: #eee;
+    padding: 30px;
+    border-radius: 10px;
+    width: 260px;
+    text-align: center;
+}
+
+.login-card-green h2 {
+    margin-bottom: 20px;
+}
+
+.login-card-green input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-card-green button {
+    width: 100%;
+    padding: 10px;
+    background: #66bb6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

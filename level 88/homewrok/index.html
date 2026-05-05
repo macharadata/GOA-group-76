@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Single Price Grid</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+         :root {
+            --cyan: hsl(179, 62%, 43%);
+            --bright-yellow: hsl(71, 73%, 54%);
+            --light-gray: hsl(204, 43%, 93%);
+            --grayish-blue: hsl(218, 22%, 67%);
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: 'Karla', sans-serif;
+            background: var(--light-gray);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        
+        .card {
+            max-width: 635px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+        
+        .top {
+            background: white;
+            padding: 40px;
+        }
+        
+        .top h1 {
+            color: var(--cyan);
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .top .highlight {
+            color: var(--bright-yellow);
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        
+        .top p {
+            color: var(--grayish-blue);
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        
+        .bottom {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+        .left {
+            background: var(--cyan);
+            color: white;
+            padding: 40px;
+        }
+        
+        .left h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        
+        .price {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .price strong {
+            font-size: 32px;
+        }
+        
+        .price span {
+            margin-left: 10px;
+            color: rgba(255, 255, 255, 0.7);
+        }
+        
+        .left p {
+            margin-bottom: 25px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        button {
+            width: 100%;
+            padding: 15px;
+            background: var(--bright-yellow);
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        button:hover {
+            opacity: 0.9;
+        }
+        
+        .right {
+            background: #4abebd;
+            color: white;
+            padding: 40px;
+        }
+        
+        .right h2 {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        
+        .right ul {
+            list-style: none;
+            font-size: 14px;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        @media (max-width: 650px) {
+            .card {
+                margin: 20px;
+            }
+            .bottom {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="card">
+
+        <div class="top">
+            <h1>Join our community</h1>
+            <p class="highlight">30-day, hassle-free money back guarantee</p>
+            <p>
+                Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are serious about honing their skills.
+            </p>
+        </div>
+
+        <div class="bottom">
+
+            <div class="left">
+                <h2>Monthly Subscription</h2>
+                <div class="price">
+                    <strong>$29</strong>
+                    <span>per month</span>
+                </div>
+                <p>Full access for less than $1 a day</p>
+                <button>Sign Up</button>
+            </div>
+
+            <div class="right">
+                <h2>Why Us</h2>
+                <ul>
+                    <li>Tutorials by industry experts</li>
+                    <li>Peer & expert code review</li>
+                    <li>Coding exercises</li>
+                    <li>Access to our GitHub repos</li>
+                    <li>Community forum</li>
+                    <li>Flashcard decks</li>
+                    <li>New videos every week</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

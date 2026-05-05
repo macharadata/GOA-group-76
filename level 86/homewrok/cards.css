@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Big+Shoulders+Display:wght@700&display=swap');
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --white: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--white);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+/* ===== LAYOUT ===== */
+
+.cards {
+    display: flex;
+    max-width: 920px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* ===== CARD ===== */
+
+.card {
+    flex: 1;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* COLORS */
+
+.card--sedan {
+    background: var(--bright-orange);
+}
+
+.card--suv {
+    background: var(--dark-cyan);
+}
+
+.card--luxury {
+    background: var(--very-dark-cyan);
+}
+
+.card__icon {
+    width: 64px;
+    margin-bottom: 35px;
+}
+
+.card__title {
+    font-family: 'Big Shoulders Display', cursive;
+    color: var(--white);
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.card__text {
+    color: var(--transparent-white);
+    line-height: 1.6;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+
+/* BUTTON */
+
+.btn {
+    margin-top: auto;
+    width: fit-content;
+    padding: 12px 28px;
+    border-radius: 25px;
+    border: none;
+    background: var(--white);
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card--sedan .btn {
+    color: var(--bright-orange);
+}
+
+.card--suv .btn {
+    color: var(--dark-cyan);
+}
+
+.card--luxury .btn {
+    color: var(--very-dark-cyan);
+}
+
+.btn:hover {
+    background: transparent;
+    color: var(--white);
+    border: 2px solid var(--white);
+}
+
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+    }
+    .card {
+        padding: 40px;
+    }
+}

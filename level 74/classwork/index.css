@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 15px;
+}
+.btn {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 3px solid;
+    transition: all 0.3s ease;
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+}
+.btn:hover {
+    transform: scale(1.15) rotateX(15deg);
+    border-radius: 20px;
+}
+.a {
+    color: white;
+    background: royalblue;
+    border-color: royalblue;
+}
+.a:hover {
+    background: white;
+    color: royalblue;
+}
+.b {
+    color: white;
+    background: crimson;
+    border-color: crimson;
+}
+.b:hover {
+    background: white;
+    color: crimson;
+}
+.c {
+    color: white;
+    background: seagreen;
+    border-color: seagreen;
+}
+.c:hover {
+    background: white;
+    color: seagreen;
+}
+.d {
+    color: black;
+    background: gold;
+    border-color: gold;
+}
+.d:hover {
+    background: black;
+    color: gold;
+}
